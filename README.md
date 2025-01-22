@@ -24,6 +24,12 @@ Année,Part des femmes (Ingénieurs),Part des femmes (Chefs de projet),Part des 
 Résultat: 
 https://www.datawrapper.de/_/vT5Xx/
 
-Dynamic Visualisation : https://github.com/Karimour/KarimO/commit/c64b2a02ce3a11404878231e4f2f0ee0ed626698#diff-ec6513e5a78c1848d5b285250332c930f40d3afe7b8701ed831149f38906a980
+Une première visualisation doit contenir des données structurées:
+Visualisation interactive : https://github.com/Karimour/KarimO/commit/c64b2a02ce3a11404878231e4f2f0ee0ed626698#diff-ec6513e5a78c1848d5b285250332c930f40d3afe7b8701ed831149f38906a980
 ![Image 22-01-2025 at 14 20](https://github.com/user-attachments/assets/0b2cd51c-6242-4b84-84d4-ea7c5db98b86)
+
+Données non-structurées. Cette visualisation peut être interactive mais aussi statique avec des annotations et légendes sur la visualisation elle-même.
+Nuage de mots: 
+
+
 

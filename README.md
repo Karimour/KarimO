@@ -17,3 +17,9 @@ Part des <35 ans,41.8,32.8,38.9,30.4
 Part des cadres,76.4,30.1,57.8,14.5
 Résultat: 
 https://www.datawrapper.de/_/1tjd4/
+
+Année,Part des femmes (Ingénieurs),Part des femmes (Chefs de projet),Part des femmes (Total numérique)
+2007,22.5,19.6,22.5
+2016,24.2,25.1,23.6
+Résultat: 
+https://www.datawrapper.de/_/vT5Xx/

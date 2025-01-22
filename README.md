@@ -22,12 +22,10 @@ https://www.datawrapper.de/_/1tjd4/
 Visualisation interactive : https://karimour.github.io/KarimO/ - https://github.com/Karimour/KarimO/commit/c64b2a02ce3a11404878231e4f2f0ee0ed626698#diff-ec6513e5a78c1848d5b285250332c930f40d3afe7b8701ed831149f38906a980
 ![Image 22-01-2025 at 14 20](https://github.com/user-attachments/assets/0b2cd51c-6242-4b84-84d4-ea7c5db98b86)
 
-Année,Part des femmes (Ingénieurs),Part des femmes (Chefs de projet),Part des femmes (Total numérique)
-2007,22.5,19.6,22.5
-2016,24.2,25.1,23.6
-Résultat: 
-https://www.datawrapper.de/_/vT5Xx/
+2eme exemple : Répartition par sexe des familles professionnelles et des principales professions du numérique en 2021-2022
+![nDZLV-r-partition-par-sexe-des-familles-professionnelles-et-des-principales-professions-du-num-rique-en-2021-2022](https://github.com/user-attachments/assets/31d7433c-4386-4870-8568-5e30d86aeab7)
 
+<div style="min-height:797px" id="datawrapper-vis-nDZLV"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/nDZLV/embed.js" charset="utf-8" data-target="#datawrapper-vis-nDZLV"></script><noscript><img src="https://datawrapper.dwcdn.net/nDZLV/full.png" alt="" /></noscript></div>
 
 
 Données non-structurées. Cette visualisation peut être interactive mais aussi statique avec des annotations et légendes sur la visualisation elle-même.

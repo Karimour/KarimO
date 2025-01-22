@@ -11,9 +11,9 @@ Définir les types de données : Dans l'étape "Check & Describe" de Datawrapper
 Liens pour le Datavis Atelier Mercredi:
 https://api.npoint.io/f671ae05239dd566d68f
 
-Visualisation pour le projet :
-https://www.datawrapper.de/_/1tjd4/
-Catégorie,Île-de-France (Numérique),Île-de-France (Économie totale),Province (Numérique),Province (Économie totale)
+Visualisation pour le projet : Catégorie,Île-de-France (Numérique),Île-de-France (Économie totale),Province (Numérique),Province (Économie totale)
 Part des femmes,23.6,48.5,20.3,48.4
 Part des <35 ans,41.8,32.8,38.9,30.4
 Part des cadres,76.4,30.1,57.8,14.5
+Résultat: 
+https://www.datawrapper.de/_/1tjd4/

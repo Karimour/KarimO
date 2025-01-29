@@ -1,5 +1,3 @@
-
-```markdown
 # rhz - Real-time Humanized Zone: Open Source, Emoji-Animated, AI-Powered Chat
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
@@ -49,35 +47,37 @@ _While we don't have a live demo linked here yet, imagine this:_ You type a mess
 *   **Enterprise Deployment Support:**  Options for scalable, secure, and managed deployments for larger organizations.
 
 **🏗️ Architecture Overview:**
+content_copy
+download
+Use code with caution.
+Markdown
 
-```
 rhz-core/
-├── config/              # Environment configurations (API keys, etc.)
-├── docs/                # Architecture decisions, documentation
-├── tests/               # Test suites (unit and integration)
-│   ├── integration/
-│   └── unit/
-├── utils/               # Shared utilities
-├── types/               # TypeScript type definitions (if applicable)
-├── frontend/            # WebRTC + Emoji UI
-│   ├── index.html
-│   ├── css/
-│   │   └── styles.css
-│   ├── js/
-│   │   ├── emoji-triggers.js # Emoji animation system
-│   │   └── deepseek-chat.js  # AI chat integration
-│   └── assets/
-├── server/              # Python backend
-│   ├── deepseek_r1.py   # DeepSeek-R1 LLM wrapper
-│   └── webrtc_bridge.py # WebRTC signaling and communication logic
-├── signaling/           # Signaling server (likely WebSocket-based)
-│   └── signaling_server.py
-├── models/              # Local model storage
-│   └── deepseek-r1-3b/  # Quantized GGUF format of DeepSeek-R1
-├── docker-compose.yml   # Production deployment configuration
-├── LICENSE              # Apache 2.0 License
-└── requirements.txt     # Python dependencies
-```
+├── config/ # Environment configurations (API keys, etc.)
+├── docs/ # Architecture decisions, documentation
+├── tests/ # Test suites (unit and integration)
+│ ├── integration/
+│ └── unit/
+├── utils/ # Shared utilities
+├── types/ # TypeScript type definitions (if applicable)
+├── frontend/ # WebRTC + Emoji UI
+│ ├── index.html
+│ ├── css/
+│ │ └── styles.css
+│ ├── js/
+│ │ ├── emoji-triggers.js # Emoji animation system
+│ │ └── deepseek-chat.js # AI chat integration
+│ └── assets/
+├── server/ # Python backend
+│ ├── deepseek_r1.py # DeepSeek-R1 LLM wrapper
+│ └── webrtc_bridge.py # WebRTC signaling and communication logic
+├── signaling/ # Signaling server (likely WebSocket-based)
+│ └── signaling_server.py
+├── models/ # Local model storage
+│ └── deepseek-r1-3b/ # Quantized GGUF format of DeepSeek-R1
+├── docker-compose.yml # Production deployment configuration
+├── LICENSE # Apache 2.0 License
+└── requirements.txt # Python dependencies
 
 **🚀 Getting Started:**
 
@@ -153,6 +153,7 @@ rhz is currently developed and maintained by [Your Name/Organization Name], but 
 *   **GitHub Discussions:** [LINK_TO_YOUR_GITHUB_DISCUSSIONS]
 
 **Let's build the future of humanized, AI-powered communication together!** ✨🚀
+
 
 ---
 

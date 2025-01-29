@@ -1,3 +1,19 @@
+<!-- Visualization Anchor -->
+<div align="center" id="rhz-visualization">
+
+[![2025 Interface Preview](docs/visualization/2025-interface.svg)](https://your-project.link/demo)
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@rhz-visualizer/core@2025.1.2"></script>
+<script>
+  RHZRenderer.init({
+    target: '#rhz-visualization',
+    repo: '<%= forkName %>',
+    theme: 'github-dark'
+  });
+</script>
+
 # 🌍 Emoji-Triggered LLM Chat
 
 ### **🚀 Open-Source, AI-Powered Chat with Emoji Triggers**

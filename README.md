@@ -26,19 +26,31 @@ MojiiCore is an **ambitious open-source project** aiming to create a text-based 
 
 **MojiiCore** aspires to be more than just chat; it's a **dynamic, expressive communication experience** where emojis become **living, breathing elements** of your conversations, reacting in real-time to the context and sentiment of your messages!
 
+**🎯 What We Are Building (and NOT Building):**
+
+*   **What We ARE Building:**
+    *   A **unique chat platform** where emojis are **dynamically animated** in response to conversation context and sentiment.
+    *   An **open-source foundation** for developers to integrate and experiment with various **locally-run open-source LLMs.**
+    *   A **modular and extensible animation system** using WebAssembly and WebGL for optimal performance.
+    *   A **vibrant community** around expressive communication and open-source AI.
+
+*   **What We Are NOT Building (Initially):**
+    *   **A new fine-tuned LLM:** We leverage existing open-source LLMs like DeepSeek-R1. Our focus is on the platform, animation, and integration, not on training new language models.
+    *   **A fully-featured communication platform (yet):**  Early development focuses on the core concept: animated emojis + LLM-driven chat. Features like audio/video, user profiles, and extensive moderation tools will come later.
+
 **Our Guiding Principles: Open Source, Privacy, Security, and Ethical Communication**
 
 This project is in **early development** and is currently driven by a **single developer** with a passion for open source and a vision for the future of communication. We are guided by these core principles:
 
 *   **Open Source First:** MojiiCore is built on open source principles from the ground up. Transparency, community involvement, and collaborative development are at the heart of this project.
-*   **Privacy by Design:** We are committed to maximizing user privacy. 
+*   **Privacy by Design:** We are committed to maximizing user privacy.
     *   **Local-First AI:** We prioritize using open-source LLMs that can be run locally, ensuring your data stays on your own machine.
-    *   **(Future) End-to-End Encryption:**  When implemented, end-to-end encryption will ensure that only you and the intended recipients can read your messages.
+    *   **(Future) End-to-End Encryption:** When implemented, end-to-end encryption will ensure that only you and the intended recipients can read your messages.
 *   **Security as a Priority:** We will strive to follow security best practices throughout the development process to protect users and their data.
     *   **(Future) Security Audits:** We plan to have regular security audits (both automated and manual) as the project matures.
 *   **Promoting Positive Communication:** We want to foster a positive and respectful community around MojiiCore.
     *   **Community Guidelines:** We will develop clear community guidelines to encourage constructive interactions and discourage harmful behavior.
-    *   **(Future) Moderation Tools:**  As the project grows, we will explore implementing tools to help moderate content and ensure a safe environment.
+    *   **(Future) Moderation Tools:** As the project grows, we will explore implementing tools to help moderate content and ensure a safe environment.
 *   **Transparency and Education:** We aim to be transparent about our design choices, especially regarding privacy and security, and to educate users about how to stay safe online.
 *   **Community-Driven Innovation:** We hope to foster a vibrant community of developers, designers, animators, and emoji enthusiasts to help shape MojiiCore's future.
 *   **Democratizing Advanced Technology:** We aim to leverage technologies like WebAssembly and WebGL to bring high-performance, delightful experiences to everyone, freely available through open source.
@@ -54,8 +66,8 @@ This project is in **early development** and is currently driven by a **single d
 **💎 Future Expansion (Potential Roadmap):**
 
 *   **Advanced Analytics:** Sentiment tracking, conversation reports (potential future feature).
-*   **Custom Integrations:** Connecting with other platforms (potential future feature).
-*   **Enterprise Deployment Support:** Scalable, secure deployments (potential future direction).
+*   **Custom Integrations:** Connecting with other platforms (potential feature).
+*   **Deployment Support:** Scalable, secure deployments (potential future direction).
 
 **🏗️ Current Architecture (Subject to Change):**
 mojiicore/
@@ -72,15 +84,15 @@ mojiicore/
 │ │ └── styles.css
 │ ├── js/
 │ │ ├── emoji-triggers.js # Emoji animation system (conceptual)
-│ │ └── deepseek-chat.js # AI chat integration (planned)
+│ │ └── llm-chat.js # AI chat integration (planned)
 │ └── wasm/ # Compiled WebAssembly modules for rendering (future)
 ├── server/ # Python backend (may be optional if using a simple signaling server)
-│ ├── deepseek_r1.py # DeepSeek-R1 LLM wrapper (planned/optional)
+│ ├── llm_wrapper.py # LLM wrapper (planned/optional)
 │ └── [other server files if needed]
 ├── signaling/ # Signaling server (likely WebSocket-based)
 │ └── signaling_server.py
 ├── models/ # Local model storage (future)
-│ └── deepseek-r1-3b/ # Quantized GGUF format of DeepSeek-R1 (planned)
+│ └── [various open-source LLMs, e.g., deepseek-r1-3b/]
 ├── docker-compose.yml # Production deployment configuration (future)
 ├── LICENSE # Apache 2.0 License
 └── requirements.txt # Python dependencies (if any)
@@ -111,8 +123,8 @@ MojiiCore is proudly licensed under the **Apache 2.0 License**. We believe in op
 We are actively seeking contributions from developers, designers, animators, AI researchers, security experts, and anyone passionate about building a more expressive, engaging, **private, and secure** communication experience! Even in this early stage, your ideas, feedback, and contributions are invaluable.
 
 *   **Check out our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines (to be created as the project evolves).**
-*   **Explore the code, especially `js/emoji-triggers.js` (for the animation concept) and `js/deepseek-chat.js` (for the planned AI chat integration).**
-*   **Submit issues for bugs, feature requests, or to discuss ideas, particularly around privacy and security.**
+*   **Explore the code, especially `js/emoji-triggers.js` (for the animation concept) and `js/llm-chat.js` (for the planned AI chat integration).**
+*   **Submit issues for bugs, feature requests, or to discuss ideas, particularly around LLM integration, privacy, and security.**
 *   **Join our community discussions!**
 
 **🏆 Community & Credits:**

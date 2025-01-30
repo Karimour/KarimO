@@ -1,7 +1,7 @@
 # 🚀 MojiiCore: Open-Source AI Chat with Frame-Perfect Emojis (Early Development)
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Software Heritage](https://archive.softwareheritage.org/badge/origin/https://github.com/yourorg/mojiicore/)](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/yourorg/mojiicore)
+[![Software Heritage](https://archive.softwareheritage.org)
 [![WebGL 2.0 Rendering](https://img.shields.io/badge/Rendering-60fps_WebGL-green)]()
 
 **Welcome to MojiiCore - A Vision for the Future of Expressive AI Chat.** 🌍✨

@@ -14,7 +14,7 @@ MojiiCore is an **ambitious open-source project** aiming to create a text-based 
 
 ---
 
-## ✨ Why MojiiCore? (Our Vision)
+## ✨ Why MojiiCore?
 
 | 🎮 Playful by Design                                       | 🛠️ Professional-Grade Core                                    |
 | :-------------------------------------------------------- | :---------------------------------------------------------- |
@@ -26,21 +26,28 @@ MojiiCore is an **ambitious open-source project** aiming to create a text-based 
 
 **MojiiCore** aspires to be more than just chat; it's a **dynamic, expressive communication experience** where emojis become **living, breathing elements** of your conversations, reacting in real-time to the context and sentiment of your messages!
 
-**Our Guiding Principles: Open Source, Expressive Communication for the AI Era**
+**Our Guiding Principles: Open Source, Privacy, Security, and Ethical Communication**
 
 This project is in **early development** and is currently driven by a **single developer** with a passion for open source and a vision for the future of communication. We are guided by these core principles:
 
-*   **Open Source First:**  MojiiCore is built on open source principles from the ground up. Transparency, community involvement, and collaborative development are at the heart of this project.
-*   **Local-First AI:**  We prioritize using open-source LLMs that can be run locally, ensuring user privacy and data control.
-*   **Expressive Communication:**  We believe that digital communication should be rich, engaging, and fun. Animated emojis are a key part of this vision.
-*   **Community-Driven Innovation:**  We hope to foster a vibrant community of developers, designers, animators, and emoji enthusiasts to help shape MojiiCore's future.
+*   **Open Source First:** MojiiCore is built on open source principles from the ground up. Transparency, community involvement, and collaborative development are at the heart of this project.
+*   **Privacy by Design:** We are committed to maximizing user privacy. 
+    *   **Local-First AI:** We prioritize using open-source LLMs that can be run locally, ensuring your data stays on your own machine.
+    *   **(Future) End-to-End Encryption:**  When implemented, end-to-end encryption will ensure that only you and the intended recipients can read your messages.
+*   **Security as a Priority:** We will strive to follow security best practices throughout the development process to protect users and their data.
+    *   **(Future) Security Audits:** We plan to have regular security audits (both automated and manual) as the project matures.
+*   **Promoting Positive Communication:** We want to foster a positive and respectful community around MojiiCore.
+    *   **Community Guidelines:** We will develop clear community guidelines to encourage constructive interactions and discourage harmful behavior.
+    *   **(Future) Moderation Tools:**  As the project grows, we will explore implementing tools to help moderate content and ensure a safe environment.
+*   **Transparency and Education:** We aim to be transparent about our design choices, especially regarding privacy and security, and to educate users about how to stay safe online.
+*   **Community-Driven Innovation:** We hope to foster a vibrant community of developers, designers, animators, and emoji enthusiasts to help shape MojiiCore's future.
 *   **Democratizing Advanced Technology:** We aim to leverage technologies like WebAssembly and WebGL to bring high-performance, delightful experiences to everyone, freely available through open source.
 
 **🔥 Core Features (Planned):**
 
 *   **Live, Context-Driven Emoji Animations:** Emojis will animate in real-time based on the text content and sentiment of the conversation. (Currently in the conceptual phase.)
-*   **Frame-Perfect 60fps Animations:**  We aim for smooth and responsive animations powered by WebAssembly and WebGL 2.0. (Future implementation)
-*   **AI-Powered by Open-Source LLMs (e.g., DeepSeek-R1):**  The goal is to enable intelligent conversations with locally running, open-source LLMs.
+*   **Frame-Perfect 60fps Animations:** We aim for smooth and responsive animations powered by WebAssembly and WebGL 2.0. (Future implementation)
+*   **AI-Powered by Open-Source LLMs (e.g., DeepSeek-R1):** The goal is to enable intelligent conversations with locally running, open-source LLMs.
 *   **Modular Architecture:** Designed for extensibility and customization.
 *   **Extensible Animation System:** A framework for creating and adding new emoji animations and trigger rules.
 
@@ -48,7 +55,7 @@ This project is in **early development** and is currently driven by a **single d
 
 *   **Advanced Analytics:** Sentiment tracking, conversation reports (potential future feature).
 *   **Custom Integrations:** Connecting with other platforms (potential future feature).
-*   **Enterprise Deployment Support:**  Scalable, secure deployments (potential future direction).
+*   **Enterprise Deployment Support:** Scalable, secure deployments (potential future direction).
 
 **🏗️ Current Architecture (Subject to Change):**
 mojiicore/
@@ -88,12 +95,12 @@ Currently, MojiiCore is in the **early stages of development**. The primary focu
     cd mojiicore
     ```
 
-2. **Explore the Code:**  Familiarize yourself with the current project structure and the `README.md`.
+2. **Explore the Code:** Familiarize yourself with the current project structure and the `README.md`.
 
-3. **Set Up Development Environment:**  You'll likely need to set up a basic development environment with:
-    *   **Frontend:**  A simple web server to serve `index.html` (or `npm` if you are using a build process).
-    *   **Backend (if applicable):**  Python environment with necessary dependencies.
-    *   **Signaling Server:**  A basic WebSocket server for client communication.
+3. **Set Up Development Environment:** You'll likely need to set up a basic development environment with:
+    *   **Frontend:** A simple web server to serve `index.html` (or `npm` if you are using a build process).
+    *   **Backend (if applicable):** Python environment with necessary dependencies.
+    *   **Signaling Server:** A basic WebSocket server for client communication.
 
 **📜 License:**
 
@@ -101,11 +108,11 @@ MojiiCore is proudly licensed under the **Apache 2.0 License**. We believe in op
 
 **🤝 Contribute to MojiiCore:**
 
-We are actively seeking contributions from developers, designers, animators, AI researchers, and anyone passionate about building a more expressive and engaging communication experience!  **Even in this early stage, your ideas, feedback, and contributions are invaluable.**
+We are actively seeking contributions from developers, designers, animators, AI researchers, security experts, and anyone passionate about building a more expressive, engaging, **private, and secure** communication experience! Even in this early stage, your ideas, feedback, and contributions are invaluable.
 
 *   **Check out our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines (to be created as the project evolves).**
 *   **Explore the code, especially `js/emoji-triggers.js` (for the animation concept) and `js/deepseek-chat.js` (for the planned AI chat integration).**
-*   **Submit issues for bugs, feature requests, or to discuss ideas.**
+*   **Submit issues for bugs, feature requests, or to discuss ideas, particularly around privacy and security.**
 *   **Join our community discussions!**
 
 **🏆 Community & Credits:**
